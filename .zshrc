@@ -11,6 +11,7 @@ setopt hist_reduce_blanks
 setopt inc_append_history
 setopt share_history
 setopt IGNOREEOF
+unsetopt PROMPT_SP
 
 # Fuck Python2.x
 alias python='python3'

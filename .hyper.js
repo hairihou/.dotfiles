@@ -140,7 +140,7 @@ module.exports = {
     // for advanced config flags please refer to https://hyper.is/#cfg
 
     // hyper-opacity setting
-    opacity: 0.72
+    opacity: 0.84
   },
 
   // a list of plugins to fetch and install from npm

@@ -1,0 +1,23 @@
+{
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+    80,
+    100
+  ],
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "python.formatting.provider": "autopep8",
+  "python.languageServer": "Pylance",
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.formatting.autopep8Args": [
+    "--max-line-length=100"
+  ],
+  "window.zoomLevel": 0,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "workbench.iconTheme": "material-icon-theme"
+}

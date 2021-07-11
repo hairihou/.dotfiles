@@ -1,2 +1,3 @@
 # .dotfiles
-my .** files
+
+my `.*.**` files

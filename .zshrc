@@ -1,4 +1,5 @@
 export EDITOR=vim
+
 export LANG=ja_JP.UTF-8
 export LESSCHARSET=utf-8
 
@@ -15,24 +16,12 @@ unsetopt PROMPT_SP
 
 # Fuck Python2.x
 alias python='python3'
+alias python-config='python3-config'
 alias pip='pip3'
 
 # n
 export N_PREFIX=$HOME/.n
 export PATH=$N_PREFIX/bin:$PATH
-
-# Android
-export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin
-export PATH=$PATH:/opt/android-sdk/tools
-export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
-export PATH=$PATH:$ANSROID_SDK_ROOT/emulator
-# deprecated
-export ANDROID_NDK_HOME=$HOME/Library/Android/sdk/ndk-bundle
-
-# Java
-export PATH=$PATH:/Applications/'Android Studio.app'/Contents/jre/jdk/Contents/Home/bin
-export JAVA_HOME=/Applications/'Android Studio.app'/Contents/jre/jdk/Contents/Home
 
 # peco
 function peco-select-history() {
@@ -63,3 +52,4 @@ bindkey '^u' peco-cdr
 
 # starship
 eval "$(starship init zsh)"
+
